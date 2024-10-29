@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class ErrorBean {
     private int status;
     private String message;
-    private LocalDateTime timestamp;
+ 
 
     public ErrorBean() {
     }
@@ -30,14 +30,6 @@ public class ErrorBean {
 
     public void setMessage(String message) {
         this.message = message;
-    }
-
-    public LocalDateTime getTimestamp() {
-        return timestamp;
-    }
-
-    public void setTimestamp(LocalDateTime timestamp) {
-        this.timestamp = timestamp;
     }
 
 }
